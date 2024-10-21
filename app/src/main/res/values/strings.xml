@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BookTracker</string>
+    <string-array name="book_statuses">
+        <item>To Read</item>
+        <item>In Progress</item>
+        <item>Finished</item>
+    </string-array>
+    <string-array name="filter_options">
+        <item>All</item>
+        <item>To Read</item>
+        <item>In Progress</item>
+        <item>Finished</item>
+    </string-array>
+    <string-array name="sort_options">
+        <item>Sort by Title (A-Z)</item>
+        <item>Sort by Title (Z-A)</item>
+        <item>Sort by Recently Added</item>
+    </string-array>
+
+
+</resources>

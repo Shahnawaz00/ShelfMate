@@ -1,0 +1,77 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- Book Title Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Title"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="?android:attr/colorAccent" />
+
+    <!-- Book Title Input Field -->
+    <EditText
+        android:id="@+id/bookTitleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g., The Catcher in the Rye"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/editTextBackground"
+        android:textSize="14sp" />
+
+    <!-- Author Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="?android:attr/colorAccent" />
+
+    <!-- Author Input Field -->
+    <EditText
+        android:id="@+id/bookAuthorInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g., J.D. Salinger"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/editTextBackground"
+        android:textSize="14sp" />
+
+    <!-- Status Label -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Status"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="?android:attr/colorAccent" />
+
+    <!-- Status Dropdown (Spinner) -->
+    <Spinner
+        android:id="@+id/bookStatusDropdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Add Book Button -->
+    <Button
+        android:id="@+id/addBookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Book"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:backgroundTint="?android:attr/colorAccent"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
